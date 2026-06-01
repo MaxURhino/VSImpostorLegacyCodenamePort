@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="100" camx="-130" camy="290" sprite="story/red/red" icon="red" holdTime="6.1">
+	<anim name="idle" anim="animations/impostor idle" x="102" y="-257"/>
+	<anim name="singRIGHT" anim="animations/impostor right" x="-47" y="-294"/>
+	<anim name="singDOWN" anim="animations/impostor down" x="80" y="-225"/>
+	<anim name="singLEFT" anim="animations/imposter left" x="264" y="-283"/>
+	<anim name="singUP" anim="animations/impostor up2" x="-3" y="-234"/>
+</character>

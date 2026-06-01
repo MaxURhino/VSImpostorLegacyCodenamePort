@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="impostor/polus/" name="polus" zoom="0.75">
+	<sprite x="-400" scroll="0.5" sprite="polus_custom_sky" y="-400" type="none" scale="1.4" name="sky"/>
+	<sprite x="-700" scroll="0.6" sprite="polusrocks" y="-300" type="none" name="rocks"/>
+	<sprite x="-1050" scroll="0.9" sprite="polusHills" y="-181" type="none" name="hills"/>
+	<sprite x="50" sprite="polus_custom_lab" y="-400" type="none" name="warehouse"/>
+	<sprite x="-1350" sprite="polus_custom_floor" y="80" type="none" name="ground"/>
+	<girlfriend x="300" y="-120"/>
+	<dad x="0" y="-150"/>
+	<boyfriend x="870" y="-150"/>
+</stage>

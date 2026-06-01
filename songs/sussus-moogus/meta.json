@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"Hard"
+	],
+	"icon": "impostor",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Sussus-Moogus",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
+}
