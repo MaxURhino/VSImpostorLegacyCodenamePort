@@ -26,7 +26,7 @@ function create() {
 
         video = new FlxVideoSprite(FlxAxes.X, FlxAxes.Y);
         video.bitmap.onEndReached.add(close);
-        trace(video.bitmap.onEndReached);
+        //trace(video.bitmap.onEndReached);
         video.cameras = [videoCamera];
 
         add(video);
@@ -38,7 +38,7 @@ function create() {
 
 function playvideo(videoname)
 {
-    trace('playvide');
+    //trace('playvide');
     if (video.load('mods/' + ModsFolder.currentModFolder + '/videos/' + videoname + '.mp4'))
         new FlxTimer().start(0.001, function(tmr:FlxTimer) {
             video.play();
@@ -46,14 +46,14 @@ function playvideo(videoname)
 }
 
 function close()
-    {
-        video.stop();
-        remove(video);
-        videoCamera.visible = false;
-        ended = true;
-        trace(ended);
-        FlxG.switchState(new TitleState());
-    }
+{
+    video.stop();
+    remove(video);
+    videoCamera.visible = false;
+    ended = true;
+    //trace(ended);
+    FlxG.switchState(new TitleState());
+}
 
 function postUpdate() {
     if (!ended) {
