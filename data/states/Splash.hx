@@ -12,6 +12,7 @@ import hxvlc.flixel.FlxVideoSprite;
 import haxe.io.FPHelper;
 import funkin.backend.assets.ModsFolder;
 import funkin.backend.MusicBeatState;
+import flixel.input.keyboard.FlxKey;
 
 var videoCamera: FlxCamera;
 
@@ -59,7 +60,7 @@ function postUpdate() {
     if (!ended) {
         video.screenCenter(FlxAxes.XY);
         video.setGraphicSize(FlxG.width, FlxG.height);
-        if (video.bitmap.isPlaying && controls.ACCEPT) {
+        if (video.bitmap.isPlaying && anyJustPressed()) {
             close();
         }
     }

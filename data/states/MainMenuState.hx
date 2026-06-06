@@ -250,9 +250,11 @@ function upper(str:String) {
 
 function selectItem() {
     selectedSomethin = true;
-    var daChoice:String = o[curSelected];
-    FlxG.sound.play(Paths.sound('menu/selected'), 1);
-    var duration = FlxG.sound.play(Paths.sound('menu/selected')).length;
+    var daChoice = "";
+    if (!(curSelected > o.length))
+        daChoice = o[curSelected];
+    var sound = FlxG.sound.play(Paths.sound('menu/confirm'), 1);
+    var duration = sound.length;
     FlxG.camera.flash(FlxColor.WHITE, duration/1000);
     new FlxTimer().start(duration/1000, function(tmr:FlxTimer) {
         switch (daChoice)

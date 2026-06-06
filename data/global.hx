@@ -60,3 +60,14 @@ public static function onUpdateStars(in: Array<Array<FlxSprite>>, elapsed) {
         }
     }
 }
+
+public static function anyJustPressed() {
+    var isDowns = FlxG.keys.getIsDown();
+    for (i in isDowns) {
+        if (i.justPressed) {
+            return true;
+        }
+    }
+
+    return false;
+}

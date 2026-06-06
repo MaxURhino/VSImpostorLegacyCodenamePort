@@ -1,5 +1,7 @@
 {
-	"customValues": {},
+	"customValues": {
+		"composer": "EthanTheDoodler"
+	},
 	"color": "#9271FD",
 	"opponentModeAllowed": false,
 	"difficulties": [
@@ -8,7 +10,7 @@
 	"icon": "red",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"displayName": "Sussus-Moogus",
+	"displayName": "Sussus Moogus",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"bpm": 150
